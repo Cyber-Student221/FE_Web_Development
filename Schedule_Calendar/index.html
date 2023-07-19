@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+    />
+    <title>Calendar</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="calendar">
+                <div class="month">
+                    <i class="fa fa-angle-left prev"></i>
+                    <div class="date">november 2022</div>
+                    <i class="fa fa-angle-right next"></i>
+                </div>
+                <ol class="weekdays">
+                    <li>Sun</li>
+                    <li>Mon</li>
+                    <li>Tue</li>
+                    <li>Wed</li>
+                    <li>Thu</li>
+                    <li>Fri</li>
+                    <li>Sat</li>
+                </ol>
+            <ol class="days">
+                <li class="day prev-date">30</li>
+                <li class="day prev-date">31</li>
+                <li class="day">1</li>
+                <li class="day">2</li>
+                <li class="day">3</li>
+                <li class="day">4</li>
+                <li class="day">5</li>
+                <li class="day">6</li>
+                <li class="day">7</li>
+                <li class="day">8</li>
+                <li class="day">9</li>
+                <li class="day">10</li>
+                <li class="day">11</li>
+                <li class="day">12</li>
+                <li class="day">13</li>
+                <li class="day event active">14</li>
+                <li class="day today">15</li>
+                <li class="day">16</li>
+                <li class="day">17</li>
+                <li class="day">18</li>
+                <li class="day">19</li>
+                <li class="day">20</li>
+                <li class="day">21</li>
+                <li class="day">22</li>
+                <li class="day">23</li>
+                <li class="day">24</li>
+                <li class="day event">25</li>
+                <li class="day">26</li>
+                <li class="day">27</li>
+                <li class="day">28</li>
+                <li class="day">29</li>
+                <li class="day">30</li>
+                <li class="day next-date">1</li>
+                <li class="day next-date">2</li>
+                <li class="day next-date">3</li>
+            </ol>
+            <div class="goto-today">
+                <div class="goto">
+                    <input type="text" placeholder="mm/yyyy" class="date-input">
+                    <button class="goto-btn">Go</button>
+                </div>
+                <button class="today-btn">Today</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
